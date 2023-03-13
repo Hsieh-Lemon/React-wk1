@@ -1,16 +1,15 @@
 import ContentItem from "./ContentItem";
 import { Row, Col } from "antd";
-
 export default function Content({ products }) {
     return (
-        <div className="row">
+        <div>
 
             <article className="image__layout py-3 py-sm-5">
                 <div className="container">
                     <h1 className="text-center">IMAGES</h1>
                     <hr className="divider--dark" />
                     <Row gutter={[24, 24]}>
-                        {products?.map(product => (
+                        {products&&products.map(product => (
                             <Col
                                 key={product.id}
                                 sm={{ span: 12 }}
