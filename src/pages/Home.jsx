@@ -11,7 +11,7 @@ function Home() {
           title="LEMON"
           slogan="JUCY"
         />
-        <Content product={products} className="laytout-content" />
+        <Content products={products} className="laytout-content" />
         <Footer className="layout-footer" />
       </div>
     );
