@@ -17,7 +17,7 @@ export default function Content({ products }) {
                                 xl={{ span: 6 }}
                                 xxl={{ span: 4 }}
                             >
-                                <ContentItem product={product} />
+                                <ContentItem products={product} />
                             </Col>
                         ))}
                     </Row>
