@@ -1,0 +1,48 @@
+ /* Image Style */
+ .image {
+    position: relative;
+    
+  }
+  
+  .imageLayout {
+    
+    background-color: #fff;
+    font-size: 1rem;
+   
+  }
+  
+  .imageLink {
+    display: block;
+  }
+  
+  .imageStyle {
+    width: 100%;
+    display: block;
+  }
+  
+  .imageTitle {
+    color: white;
+    right: 2rem;
+    bottom: 0;
+    font-weight: 800;
+    text-transform: uppercase;
+    position: absolute;
+  }
+ 
+  /* Divider Style */
+.dividerlight,
+.dividerdark {
+  width: 250px;
+  border-top: solid 5px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.7;
+}
+
+.dividerlight {
+  border-color: #fff;
+}
+
+.dividerdark {
+  border-color: #2c3e50;
+}

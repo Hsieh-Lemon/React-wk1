@@ -5,14 +5,14 @@ import products from "../json/products.json"
 
 function Home() {
     return (
-      <div className="container main-layout">
+      <div className="container mainLayout">
         <Header
-          className="layout-header"
+          className="layoutHeader"
           title="LEMON"
           slogan="JUCY"
         />
-        <Content product={products} className="laytout-content" />
-        <Footer className="layout-footer" />
+        <Content products={products} className="layoutContent" />
+        <Footer className="layoutFooter" />
       </div>
     );
   }
