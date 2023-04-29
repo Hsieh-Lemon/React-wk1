@@ -12,7 +12,7 @@ export default function Content({ products }) {
                 <Row gutter={[24, 24]}>
                     {products.map(product => (
                         <Col
-                            key={product.id}
+                            key={product.name}
                             sm={{ span: 12 }}
                             lg={{ span: 8 }}
                             xl={{ span: 6 }}
